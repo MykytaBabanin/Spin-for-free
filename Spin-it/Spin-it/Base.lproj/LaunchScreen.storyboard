@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AC7-c5-npo">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Legendary_Champion_Chest_launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="Ao9-rb-T5O">
+                                <rect key="frame" x="355" y="137" width="142" height="119"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test app design" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipr-8e-kcc">
+                                <rect key="frame" x="229" y="277" width="395" height="65"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RyB-Sw-zDp"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ipr-8e-kcc" firstAttribute="leading" secondItem="RyB-Sw-zDp" secondAttribute="leading" id="32X-lp-2kg"/>
+                            <constraint firstItem="Ipr-8e-kcc" firstAttribute="leading" secondItem="RyB-Sw-zDp" secondAttribute="leading" constant="229" id="8CL-di-xpe"/>
+                            <constraint firstAttribute="trailing" secondItem="Ipr-8e-kcc" secondAttribute="trailing" id="AoD-PA-myb"/>
+                            <constraint firstItem="RyB-Sw-zDp" firstAttribute="trailing" secondItem="Ipr-8e-kcc" secondAttribute="trailing" constant="228" id="P9T-cn-9LP"/>
+                            <constraint firstItem="Ao9-rb-T5O" firstAttribute="centerY" secondItem="AC7-c5-npo" secondAttribute="centerY" id="RHT-CW-4Hg"/>
+                            <constraint firstItem="Ipr-8e-kcc" firstAttribute="top" secondItem="Ao9-rb-T5O" secondAttribute="bottom" constant="7.3300000000000001" id="ROG-b5-mNS"/>
+                            <constraint firstItem="RyB-Sw-zDp" firstAttribute="bottom" secondItem="Ipr-8e-kcc" secondAttribute="bottom" constant="177" id="jgf-HH-QpQ"/>
+                            <constraint firstItem="Ao9-rb-T5O" firstAttribute="centerX" secondItem="AC7-c5-npo" secondAttribute="centerX" id="m6F-Pi-LTL"/>
+                            <constraint firstItem="Ipr-8e-kcc" firstAttribute="top" secondItem="Ao9-rb-T5O" secondAttribute="bottom" constant="21" id="o1k-UU-BKU"/>
+                            <constraint firstItem="Ao9-rb-T5O" firstAttribute="centerY" secondItem="AC7-c5-npo" secondAttribute="centerY" id="oRv-ug-xsw"/>
+                            <constraint firstItem="Ao9-rb-T5O" firstAttribute="centerX" secondItem="AC7-c5-npo" secondAttribute="centerX" id="oe8-Do-Vxk"/>
+                            <constraint firstItem="RyB-Sw-zDp" firstAttribute="bottom" secondItem="Ipr-8e-kcc" secondAttribute="bottom" constant="17" id="u4a-CK-f9g"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="P9T-cn-9LP"/>
+                                <exclude reference="jgf-HH-QpQ"/>
+                                <exclude reference="u4a-CK-f9g"/>
+                                <exclude reference="32X-lp-2kg"/>
+                                <exclude reference="8CL-di-xpe"/>
+                                <exclude reference="AoD-PA-myb"/>
+                                <exclude reference="ROG-b5-mNS"/>
+                                <exclude reference="o1k-UU-BKU"/>
+                                <exclude reference="RHT-CW-4Hg"/>
+                                <exclude reference="m6F-Pi-LTL"/>
+                                <exclude reference="oRv-ug-xsw"/>
+                                <exclude reference="oe8-Do-Vxk"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="P9T-cn-9LP"/>
+                                <include reference="u4a-CK-f9g"/>
+                                <include reference="8CL-di-xpe"/>
+                                <include reference="o1k-UU-BKU"/>
+                                <include reference="RHT-CW-4Hg"/>
+                                <include reference="oe8-Do-Vxk"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="jgf-HH-QpQ"/>
+                                <include reference="32X-lp-2kg"/>
+                                <include reference="AoD-PA-myb"/>
+                                <include reference="ROG-b5-mNS"/>
+                                <include reference="m6F-Pi-LTL"/>
+                                <include reference="oRv-ug-xsw"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Legendary_Champion_Chest_launch_screen" width="142" height="119"/>
+    </resources>
+</document>
